@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ильясова биография">
+  <link rel="icon" type="image/png" href="./p/4.png">
+  <title>Биография</title>
+<style>
+::-webkit-scrollbar {width: 0; height: 0;}
+button, div { border: none; background: none; }
+html { scrollbar-width: none; }
+body {
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  height: 100vh;
+  max-width: 100vw;
+}
+* {
+  margin: 0; 
+  box-sizing: border-box; 
+  scroll-behavior:smooth;
+  color: #fff;
+}
+::selection { background-color: #5d5d5d;  }
+::-moz-selection { background-color: #5d5d5d;  }
+
+
+
+
+@font-face {
+  font-family: 'africa';
+  src: url('font/ST-Africa.woff');}
+@font-face {
+  font-family: 'Copperplate';
+  src: url('font/ofont.ru_Copperplate.woff');}
+@font-face {
+  font-family: 'buyan';
+  src: url('font/BuyanBold.woff');}
+@font-face {
+  font-family: 'nyashasans';
+  src: url('font/nyashasans.ttf');}
+@font-face {
+  font-family: 'courier';
+  src: url('font/Courier Thin.otf');}
+@font-face {
+  font-family: 'DeterminationMonoWeb';
+  src: url('font/DeterminationMonoWeb.woff');}
+@font-face {
+  font-family: 'Serif';
+  src: url('font/PT_Serif-Web-Regular.ttf');}
+
+
+body{
+  background: #000;
+  font-family:'Copperplate',Arial,sans-serif; 
+}
+body::before{
+  content:"";
+  inset:0;
+  opacity:0.07;
+  background:url("./media/1.svg") repeat;
+  background-size:auto min(75vw, 40rem);
+  pointer-events:none;
+  position: fixed;
+  filter: contrast(1.2) saturate(2);
+}
+
+
+.top {
+  padding: min(17vw, 13rem) 5vw;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+
+
+.main {
+  width: min(90vw, 60rem);
+  margin: 0 auto;
+  margin-top: min(5vw, 4rem);
+  padding-bottom: 1px;
+  line-height: 1.1;
+}
+
+
+.tt {
+  font-size: min(16.5vw, 10rem);
+  transform: scaleY(2);
+  font-family: "africa";
+  text-shadow: 0 0 min(17vw, 6.5rem) #ffdfd7;
+  line-height: 0.6;
+  margin: 0 0 min(11vw, 6rem);
+  font-weight: 1;
+  text-align: end;
+}
+.subtitle {
+  font-size: min(4.5vw, 3rem);
+  letter-spacing: -0.1em;
+  line-height: 0.8;
+  color: #b5afaf;
+  margin-bottom: 0;
+  width: auto;
+  text-align: end;
+}
+h2 {
+  font-size: min(11vw, 5rem);
+  position: relative;
+  font-family: "buyan";
+  line-height: 0.8;
+}
+
+p {
+  font-size: min(3.4vw, 1.5rem);
+  margin-bottom: min(3vw, 1.5rem);
+  color: #a4a2a1;
+  width: 100%;
+}
+
+
+img {
+  width: 100%;
+  pointer-events: none;
+  filter: contrast(1.2) brightness(0.8) saturate(0.8) sepia(0.2);
+  height: 100%;
+  z-index: 1;
+}
+.lor {
+  display: grid;
+  width: 100%;
+  padding: 0 0 min(3vw, 1.5rem) 2vw;  
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 900px) {
+  .lor {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  h2 {
+    font-size: min(14vw, 5rem);
+  }
+}
+
+
+.container {
+  position: relative;
+  margin-bottom: min(7vw, 5rem);
+}
+
+
+
+.container.rodina {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2vw;
+  width: auto;
+}
+.rodina h2, .rodina p {
+  text-align: end;
+  left: 0;
+}
+.rodina-text {
+  width: min(100%, 50rem);
+  justify-items: end;
+  display: grid;
+}
+
+
+
+.cinema img {
+  width: min(100%, 40rem);
+  box-shadow: 0 0 50vmin rgb(40, 0, 108);
+}
+.movie {
+  display: flex;
+}
+.movie h2 {
+  display: initial;
+  left: min(1vw, 0.5rem);
+  writing-mode: vertical-rl;
+  font-size: min(15vw, 8rem);
+  line-height: 0.8;
+  width: fit-content;
+}
+.movie p {
+  letter-spacing: 0.1em;
+  font-size: min(4.3vw, 2rem);
+}
+.warning {
+  text-align: center;
+  width: min(60%, 32rem);
+  opacity: 0.7;
+  font-size: min(2.4vw, 1.4rem);
+  letter-spacing: -0.1em;
+  line-height: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con {
+  margin-top: min(9vw, 4.5rem);
+  background: url(https://previews.123rf.com/images/robertsrob/robertsrob1501/robertsrob150100014/35229739-green-field-under-blue-sky-with-sun-and-rainbow-beauty-nature-background.avif);
+  filter: blur(min(0.15vw, 1.2px)) brightness(0.8) sepia(0.6) contrast(1.2);
+  background-size: 100% 100%;
+  cursor: none;
+  overflow-x: hidden;
+}
+.incon {
+  padding: min(5vw, 3.5rem);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.incon h2 {
+  background: linear-gradient( to right, #f00, #ebff00, #ff0, #2cff00, #0040ff, #f600e7, #f00);
+  background-size: 50% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow-shift 2s linear infinite;
+  line-height: 0.7;
+  font-size: min(10.5vw, 6.8rem);
+  font-family: "Serif";
+  padding-bottom: min(2.5vw, 2rem);
+  filter: drop-shadow(0 0 min(1vw, 0.5rem) #000);
+  transform: scalex(1.3);
+  left: min(15vw, 7.3rem);
+  max-width: 48.4rem;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-text-stroke: min(.4vw, 0.2rem); 
+  will-change: tranform, animation, filter;
+}
+
+@keyframes rainbow-shift {to { background-position: 100% center; }}
+
+.inincon {
+  display: flex;
+}
+.incon img {
+  pointer-events: auto;
+  filter: none;
+  width: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  filter: drop-shadow(min(2vw, 1.5rem) min(4vw, 3rem) min(6vw, 3rem) #000);
+}
+.incon img:active {
+  transform: scale(0.95);
+}
+
+spn {
+  overflow: hidden;
+  max-width: 65%;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.mine {
+  width: 50%;
+  align-content: center;
+}
+.mine ol, .incon p {
+  padding-left: min(5.2vw, 3rem);
+  font-size: min(3.5vw, 2rem);
+  text-shadow: 0 0 min(0.5vw, 0.5rem) #000;
+  font-family: "nyashasans";
+  color: #fff;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  white-space: nowrap;
+  filter: contrast(1.3) brightness(1.3);
+}
+.ilsas::marker {
+  content: "0. "
+}
+
+.cursor {
+  width: min(8vw, 5rem);
+  background: url(./media/kirka.png);
+  position: fixed;
+  pointer-events: none;
+  will-change: transform;
+  transition: none; 
+  aspect-ratio: 1/1;
+  background-size: 100%;
+  z-index: 100;
+  filter: blur(min(0.15vw, 1.2px)) sepia(0.4) contrast(1.3);
+  opacity: 0;
+}
+.cursor.a {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+span {
+  color: transparent;
+  background: #c7c7c7;
+}
+nobody {
+  display: ruby;
+  font-size: min(4.2vw, 2rem);
+  font-family: DeterminationMonoWeb;
+  line-height: 0;
+  background: #000;
+  box-shadow: 0 0 min(2vw, 0.5rem) #000;
+}
+none {
+  display: none;
+}
+
+
+
+
+
+
+
+
+.prompt-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  display: none;
+}
+.prompt-overlay.active {
+  display: flex;
+}
+.prompt-box {
+  width: min(80vw, 26rem);
+  padding: 1.3rem;
+  background: linear-gradient(180deg, #f7f7f7, #d8d8d8);
+  border: 2px solid #999;
+  box-shadow: 0 0 0 1px #eee inset, 0 10px 30px rgba(0, 0, 0, 0.35);
+  border-radius: 0.8rem;
+  font-family: "Courier", monospace;
+  color: #111;
+  filter: blur(min(0.15vw, .7px)) brightness(0.9) sepia(0.3) contrast(1);
+}
+.prompt-box h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+  color: #111; 
+}
+.prompt-input {
+  width: 100%;
+  padding: 0.85rem 0.85rem 0.8rem;
+  border: 2px inset #999;
+  border-radius: 0.3rem;
+  background: linear-gradient(180deg, #fff, #e6e6e6);
+  font-size: 1rem;
+  font-family: "Courier", monospace;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+.prompt-input:focus {
+  outline: 2px solid #4a7afd;
+}
+.prompt-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.7rem;
+}
+.prompt-button {
+  padding: 0.55rem 0.9rem;
+  border: 2px outset #ccc;
+  border-radius: 0.35rem;
+  background: linear-gradient(180deg, #f5f5f5, #d4d4d4);
+  font-family: "Courier", monospace;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #111;
+}
+.prompt-button:active {
+  border-style: inset;
+}
+.prompt-button:hover {
+  filter: brightness(1.04);
+}
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  
+  <audio id="S" preload="auto" src="./media/2.mp3"></audio>
+  <div class="cursor"></div>
+  <div class="top">
+    <h1 class="tt" onclick="playMusic()">ильяс</h1>
+    <p class="subtitle">Стендоффер второй, вор в загоне и<br>Наследник Нигерии</p>
+  </div>
+
+
+  <div class="main">
+
+    <div class="container">
+      <div style="display: flex;">
+          <div style="width: 115%;">
+          <h2>&nbsp;лор ильяса</h2>
+          <p>&nbsp;&nbsp;Ильяс это машина, бля первое фото было сделано 7 июня 24 года.
+          Родился в семье <span>Нигерийского короля</span> и с самого детства был окружен любовью заботой и <span>5 литрами чистой воды</span>.
+          В возрасте 10 лет <span >без знания русского языка</span> он переехал в Россию для учёбы.
+          Благодаря своей <span>упорности и стремлению к знаниям</span> быстро освоил язык и сдал устный русский на <span>13</span> баллов
+          </p></div>
+          <div class="lor">
+            <img src="./p/7.jpg">
+            <img src="./p/4.jpg">
+            <img src="./p/3.jpg">
+            <img src="./p/1.jpg">
+          </div>
+        </div>
+        
+      <p>&nbsp;&nbsp;Вдохновленный великими африканскими лидерами, такими как <nobody>* But nobody came</nobody>.
+          Ильяс посвятил свою жизнь стендоффу, пабгу и бравлу по очереди.
+          Его видение перемен было ясным и амбициозным, а потом его стошнило, и он остался дома, на 3 дня, бля</p>
+      <p>&nbsp;&nbsp;После завершения 9 класса в России, Ильяс вернется в Африку<none>с целью помочь развитию экономики</none>.
+          Его амбиции и предприимчивости нету, но он начнет строить различные проекты и инвестировать в будущее своего континента</p>
+    
+      <div class="container rodina">
+        <div class="rodina-text">
+          <p>Ильяс успешный игрок в онлайн-казино,
+            зарабатывая миллионы на ставках он помогает бедным регионам Африки,
+            но эти миллионы с минусом в начале</p>
+          <p style="margin-bottom: min(1vw, 0.5rem)">скверно, но зато верно</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container">
+  <div class="movie">
+      <img src="./media/cinema.jpg" style="width: min(60%, 32rem);">
+      <h2>Скоро
+        <p>во всех кинотеатрах россии и нигерии</p>
+      </h2>
+    </div>
+      <p class="warning">
+        <br>
+        ОФИЦИАЛЬНОЕ ПРЕДУПРЕЖДЕНИЕ:
+        <br>
+        фильм "ИЛЬЯС Заплыв" содержит сцены,
+        способные вызвать:
+        эмоциональную нестабильность,
+        кратковременную потерю мотивации,
+        желание резко изменить свою жизнь
+        и уважение к африканской экономике.
+        <br>
+        Все события фильма были восстановлены
+        международной командой историков,
+        аналитиков,
+        бывших игроков в пабг
+        и человека,
+        который вроде родился там.
+        <br>
+        Создатели фильма предупреждают:
+        после просмотра у зрителя может появиться
+        ложное ощущение,
+        что он способен:
+        открыть собственный бизнес,
+        стать лидером континента,
+        поднять экономику,
+        выучить русский за неделю
+        или вернуть деньги с казино.
+        <br>
+        Отдельные сцены фильма были запрещены
+        в 143 странах мира,
+        двух шаурмичных
+        и у ильяса дома.
+        Причины запрета до сих пор неизвестны.
+        <br>
+        Во время производства фильма использовались:
+        39 литра энергетика,
+        17 motivational shorts,
+        африканская философия,
+        капкут
+        и один микрофон
+        со сломаным шнуром.
+        <br>
+        Все трюки выполнялись профессионалами.
+        Не пытайтесь повторить:
+        прыжок в 5 литров воды,
+        инвестиции после полуночи,
+        разговоры о бизнесе после двух проебанных каток.
+        <br>
+        Из-за высокого уровня драматизма
+        некоторые сцены пришлось смягчить.
+        В оригинальной версии фильма
+        Ильяс смотрел мотивационные видео
+        14 часов подряд
+        и пытался создать международную корпорацию,
+        используя только заметки телефона
+        и слово стартап.
+        <br>
+        ВНИМАНИЕ:
+        в фильме присутствуют скрытые смыслы,
+        скрытые надписи,
+        скрытые конфликты,
+        скрытые долги
+        и скрытые спан элементы.
+        <br>
+        После просмотра фильма
+        рекомендуется:
+        выпить воды,
+        посмотреть в окно,
+        вспомнить свои жизненные решения
+        и не принимать важных финансовых решений
+        под фонк
+        <br>
+        Создатели фильма официально заявляют,
+        что образ Ильяса является
+        художественным преувеличением.
+        <br>
+        Фильм создан при поддержке:
+        автора и
+        фонда африканских технологий.
+        <br>
+        При обнаружении сюжетных дыр
+        рекомендуется не задавать вопросов.
+        Это часть авторского замысла.
+    </p>
+  </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="con">
+    <div class="incon">
+      <h2>давайте поможем<br>ильясу в шахте</h2>
+      <p id="chet">неоплачиваемые кубометры: 0</p>
+      <div class="inincon">
+        <img id="click" src="./media/stone.png" draggable="false">
+        <div class="mine">
+          <h2 style="line-height: 1;left: min(7.5vw, 7rem);padding-bottom: 0;">ТОП 9</h2>
+          <ol><li class="ilsas"><spn>Ильяс</spn>: черный</li></ol><ol id="leaderboard"><p style="padding-left: 0;"><style>.mine ol {padding-left: 0;} .ilsas {display: none;} </style>либо плохой интернет,<br> либо ебучий ркн.</p></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="namePrompt" class="prompt-overlay" role="dialog" aria-modal="true" aria-labelledby="namePromptTitle">
+    <div class="prompt-box">
+      <h3 id="namePromptTitle">Введите ваше имя</h3>
+      <input id="namePromptInput" class="prompt-input" type="text" maxlength="10" autocomplete="off" placeholder="Имя">
+      <div class="prompt-buttons">
+        <button id="namePromptCancel" class="prompt-button" type="button">Отмена</button>
+        <button id="namePromptOk" class="prompt-button" type="button">OK</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+const area = document.querySelector('.con');
+const cursor = document.querySelector('.cursor');
+
+let mouseX = 0, mouseY = 0;
+let rotation = 0;
+
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+area.addEventListener('mousedown', () => {
+  rotation = -25;
+});
+area.addEventListener('mouseup', () => {
+  rotation = 0;
+});
+
+
+function update() {
+  cursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) rotate(${rotation}deg) translateX(-15%) translateY(-15%)`;
+  requestAnimationFrame(update);
+}
+update();
+
+area.addEventListener('mouseenter', () => {
+  cursor.style.opacity = '1';
+});
+
+area.addEventListener('mouseleave', () => {
+  cursor.style.opacity = '0';
+  rotation = 0;
+});
+
+const ua = navigator.userAgent;
+const mode = ua.includes('Android') || ua.includes('like Mac')
+  ? 'a'
+    : ua.includes('Win') || ua.includes('Mac')
+      ? 'w'
+      : null;
+
+if (mode) {
+    document.body.classList.add(mode);
+    document.body.querySelectorAll('*').forEach(el => el.classList.add(mode));
+}
+
+</script>
+
+<script> function playMusic() { var audio = document.getElementById("S"); audio.play(); } </script>
+
+<script type="module" src="o.js"></script>
+
+</body>
+</html>
