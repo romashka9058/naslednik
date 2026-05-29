@@ -185,6 +185,9 @@ img {
   letter-spacing: 0.1em;
   font-size: min(4.3vw, 2rem);
 }
+.zap {
+  width: min(60%, 32rem);
+}
 .warning {
   text-align: center;
   width: min(60%, 32rem);
@@ -471,7 +474,7 @@ none {
 
     <div class="container">
   <div class="movie">
-      <img src="./media/cinema.jpg" style="width: min(60%, 32rem);">
+      <img class="zap" src="./media/cinema.jpg">
       <h2>Скоро
         <p>во всех кинотеатрах россии и нигерии</p>
       </h2>
@@ -664,7 +667,7 @@ if (mode) {
 </script>
 
 <script> function playMusic() { var audio = document.getElementById("S"); audio.play(); } </script>
-
+<script> if ( window.location.protocol !== "https:" && window.location.protocol !== "http:" ) { document.body.innerHTML = ""; window.stop(); } if (window.location.protocol === "file:") { document.body.innerHTML = `<style>h1 {font-size: 40vmin;align-items: center;display: flex;color: #fff;text-shadow: 0 0 min(5vw, 2rem) #000;}</style> <h1>не</h1>`; throw new Error("blocked");}</script>
 <script type="module" src="o.js"></script>
 
 </body>
