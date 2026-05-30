@@ -7,195 +7,192 @@
   <link rel="icon" type="image/png" href="./p/4.png">
   <title>Биография</title>
 <style>
-::-webkit-scrollbar {width: 0; height: 0;}
-button, div { border: none; background: none; }
-html { scrollbar-width: none; }
-body {
-  -ms-overflow-style: none;
-  overflow-x: hidden;
-  height: 100vh;
-  max-width: 100vw;
-}
-* {
-  margin: 0; 
-  box-sizing: border-box; 
-  scroll-behavior:smooth;
-  color: #fff;
-}
-::selection { background-color: #5d5d5d;  }
-::-moz-selection { background-color: #5d5d5d;  }
+    ::-webkit-scrollbar {width: 0; height: 0;}
+    button, div { border: none; background: none; }
+    html { scrollbar-width: none; }
+    body {
+      -ms-overflow-style: none;
+      overflow-x: hidden;
+      height: 100vh;
+      max-width: 100vw;
+    }
+    * {
+      margin: 0;
+      box-sizing: border-box;
+      scroll-behavior:smooth;
+      color: #fff;
+    }
+    ::selection { background-color: #5d5d5d;  }
+    ::-moz-selection { background-color: #5d5d5d;  }
 
 
 
 
-@font-face {
-  font-family: 'africa';
-  src: url('font/ST-Africa.woff');}
-@font-face {
-  font-family: 'Copperplate';
-  src: url('font/ofont.ru_Copperplate.woff');}
-@font-face {
-  font-family: 'buyan';
-  src: url('font/BuyanBold.woff');}
-@font-face {
-  font-family: 'nyashasans';
-  src: url('font/nyashasans.ttf');}
-@font-face {
-  font-family: 'courier';
-  src: url('font/Courier Thin.otf');}
-@font-face {
-  font-family: 'DeterminationMonoWeb';
-  src: url('font/DeterminationMonoWeb.woff');}
-@font-face {
-  font-family: 'Serif';
-  src: url('font/PT_Serif-Web-Regular.ttf');}
+    @font-face {
+      font-family: 'africa';
+      src: url('font/ST-Africa.woff');}
+    @font-face {
+      font-family: 'Copperplate';
+      src: url('font/ofont.ru_Copperplate.woff');}
+    @font-face {
+      font-family: 'buyan';
+      src: url('font/BuyanBold.woff');}
+    @font-face {
+      font-family: 'nyashasans';
+      src: url('font/nyashasans.ttf');}
+    @font-face {
+      font-family: 'courier';
+      src: url('font/Courier Thin.otf');}
+    @font-face {
+      font-family: 'DeterminationMonoWeb';
+      src: url('font/DeterminationMonoWeb.woff');}
+    @font-face {
+      font-family: 'Serif';
+      src: url('font/PT_Serif-Web-Regular.ttf');}
 
 
-body{
-  background: #000;
-  font-family:'Copperplate',Arial,sans-serif; 
-}
-body::before{
-  content:"";
-  inset:0;
-  opacity:0.07;
-  background:url("./media/1.svg") repeat;
-  background-size:auto min(75vw, 40rem);
-  pointer-events:none;
-  position: fixed;
-  filter: contrast(1.2) saturate(2);
-}
+    body{
+      background: #000;
+      font-family:'Copperplate',Arial,sans-serif;
+    }
+    body::before{
+      content:"";
+      inset:0;
+      opacity:0.07;
+      background:url("./media/1.svg") repeat;
+      background-size:auto min(75vw, 40rem);
+      pointer-events:none;
+      position: fixed;
+      filter: contrast(1.2) saturate(2);
+    }
 
 
-.top {
-  padding: min(17vw, 13rem) 5vw;
-  max-width: 100rem;
-  margin: 0 auto;
-}
-
-
-
-.main {
-  width: min(90vw, 60rem);
-  margin: 0 auto;
-  margin-top: min(5vw, 4rem);
-  padding-bottom: 1px;
-  line-height: 1.1;
-}
-
-
-.tt {
-  font-size: min(16.5vw, 10rem);
-  transform: scaleY(2);
-  font-family: "africa";
-  text-shadow: 0 0 min(17vw, 6.5rem) #ffdfd7;
-  line-height: 0.6;
-  margin: 0 0 min(11vw, 6rem);
-  font-weight: 1;
-  text-align: end;
-}
-.subtitle {
-  font-size: min(4.5vw, 3rem);
-  letter-spacing: -0.1em;
-  line-height: 0.8;
-  color: #b5afaf;
-  margin-bottom: 0;
-  width: auto;
-  text-align: end;
-}
-h2 {
-  font-size: min(11vw, 5rem);
-  position: relative;
-  font-family: "buyan";
-  line-height: 0.8;
-}
-
-p {
-  font-size: min(3.4vw, 1.5rem);
-  margin-bottom: min(3vw, 1.5rem);
-  color: #a4a2a1;
-  width: 100%;
-}
-
-
-img {
-  width: 100%;
-  pointer-events: none;
-  filter: contrast(1.2) brightness(0.8) saturate(0.8) sepia(0.2);
-  height: 100%;
-  z-index: 1;
-}
-.lor {
-  display: grid;
-  width: 100%;
-  padding: 0 0 min(3vw, 1.5rem) 2vw;  
-  grid-template-columns: repeat(2, 1fr);
-}
-@media (min-width: 900px) {
-  .lor {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  h2 {
-    font-size: min(14vw, 5rem);
-  }
-}
-
-
-.container {
-  position: relative;
-  margin-bottom: min(7vw, 5rem);
-}
+    .top {
+      padding: min(17vw, 13rem) 5vw;
+      max-width: 100rem;
+      margin: 0 auto;
+    }
 
 
 
-.container.rodina {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 2vw;
-  width: auto;
-}
-.rodina h2, .rodina p {
-  text-align: end;
-  left: 0;
-}
-.rodina-text {
-  width: min(100%, 50rem);
-  justify-items: end;
-  display: grid;
-}
+    .main {
+      width: min(90vw, 60rem);
+      margin: 0 auto;
+      margin-top: min(5vw, 4rem);
+      padding-bottom: 1px;
+      line-height: 1.1;
+    }
+
+
+    .tt {
+      font-size: min(16.5vw, 10rem);
+      transform: scaleY(2);
+      font-family: "africa";
+      text-shadow: 0 0 min(17vw, 6.5rem) #ffdfd7;
+      line-height: 0.6;
+      margin: 0 0 min(11vw, 6rem);
+      font-weight: 1;
+      text-align: end;
+    }
+    .subtitle {
+      font-size: min(4.5vw, 3rem);
+      letter-spacing: -0.1em;
+      line-height: 0.8;
+      color: #b5afaf;
+      margin-bottom: 0;
+      width: auto;
+      text-align: end;
+    }
+    h2 {
+      font-size: min(11vw, 5rem);
+      position: relative;
+      font-family: "buyan";
+      line-height: 0.8;
+    }
+
+    p {
+      font-size: min(6vw, 1.5rem);
+      margin-bottom: min(3vw, 1.5rem);
+      color: #a4a2a1;
+      width: 100%;
+    }
+
+
+    img {
+      width: 100%;
+      pointer-events: none;
+      filter: contrast(1.2) brightness(0.8) saturate(0.8) sepia(0.2);
+      height: 100%;
+      z-index: 1;
+    }
+    .lor {
+      display: grid;
+      width: 100%;
+      padding: 0 0 min(3vw, 1.5rem) 2vw;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 900px) {
+      .lor {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      h2 {
+        font-size: min(14vw, 5rem);
+      }
+    }
+
+
+    .container {
+      position: relative;
+      margin-bottom: min(7vw, 5rem);
+    }
 
 
 
-.cinema img {
-  width: min(100%, 40rem);
-  box-shadow: 0 0 50vmin rgb(40, 0, 108);
-}
-.movie {
-  display: flex;
-}
-.movie h2 {
-  display: initial;
-  left: min(1vw, 0.5rem);
-  writing-mode: vertical-rl;
-  font-size: min(15vw, 8rem);
-  line-height: 0.8;
-  width: fit-content;
-}
-.movie p {
-  letter-spacing: 0.1em;
-  font-size: min(4.3vw, 2rem);
-}
-.zap {
-  width: min(60%, 32rem);
-}
-.warning {
-  text-align: center;
-  width: min(60%, 32rem);
-  opacity: 0.7;
-  font-size: min(2.4vw, 1.4rem);
-  letter-spacing: -0.1em;
-  line-height: 0.9;
-}
+    .container.rodina {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 2vw;
+      width: auto;
+    }
+    .rodina h2, .rodina p {
+      text-align: end;
+      left: 0;
+    }
+    .rodina-text {
+      width: min(100%, 50rem);
+      justify-items: end;
+      display: grid;
+    }
+
+
+
+    .cinema img {
+      width: min(100%, 40rem);
+      box-shadow: 0 0 50vmin rgb(40, 0, 108);
+    }
+    .movie {
+      display: flex;
+    }
+    .movie h2 {
+      display: initial;
+      left: min(1vw, 0.5rem);
+      writing-mode: vertical-rl;
+      font-size: min(15vw, 8rem);
+      line-height: 0.8;
+      width: fit-content;
+    }
+    .movie p {
+      letter-spacing: 0.1em;
+      font-size: min(4.3vw, 2rem);
+    }
+    .warning {
+      text-align: center;
+      width: min(60%, 32rem);
+      opacity: 0.7;
+      font-size: min(2.4vw, 1.4rem);
+      letter-spacing: -0.1em;
+      line-height: 0.9;
+    }
 
 
 
@@ -214,102 +211,126 @@ img {
 
 
 
-.con {
-  margin-top: min(9vw, 4.5rem);
-  background: url(https://previews.123rf.com/images/robertsrob/robertsrob1501/robertsrob150100014/35229739-green-field-under-blue-sky-with-sun-and-rainbow-beauty-nature-background.avif);
-  filter: blur(min(0.15vw, 1.2px)) brightness(0.8) sepia(0.6) contrast(1.2);
-  background-size: 100% 100%;
-  cursor: none;
-  overflow-x: hidden;
-}
-.incon {
-  padding: min(5vw, 3.5rem);
-  max-width: 70rem;
-  margin: 0 auto;
-}
-.incon h2 {
-  background: linear-gradient( to right, #f00, #ebff00, #ff0, #2cff00, #0040ff, #f600e7, #f00);
-  background-size: 50% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: rainbow-shift 2s linear infinite;
-  line-height: 0.7;
-  font-size: min(10.5vw, 6.8rem);
-  font-family: "Serif";
-  padding-bottom: min(2.5vw, 2rem);
-  filter: drop-shadow(0 0 min(1vw, 0.5rem) #000);
-  transform: scalex(1.3);
-  left: min(15vw, 7.3rem);
-  max-width: 48.4rem;
-  overflow: hidden;
-  white-space: nowrap;
-  -webkit-text-stroke: min(.4vw, 0.2rem); 
-  will-change: tranform, animation, filter;
-}
+    .con {
+      margin-top: min(9vw, 4.5rem);
+      background: url(https://previews.123rf.com/images/robertsrob/robertsrob1501/robertsrob150100014/35229739-green-field-under-blue-sky-with-sun-and-rainbow-beauty-nature-background.avif);
+      filter: blur(min(0.15vw, 1.2px)) brightness(0.8) sepia(0.6) contrast(1.2);
+      background-size: 100% 100%;
+      cursor: none;
+      overflow-x: hidden;
+    }
+    .incon {
+      padding: min(5vw, 3.5rem);
+      max-width: 70rem;
+      margin: 0 auto;
+    }
+    .incon h2 {
+      background: linear-gradient( to right, #f00, #ebff00, #ff0, #2cff00, #0040ff, #f600e7, #f00);
+      background-size: 50% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: rainbow-shift 2s linear infinite;
+      line-height: 0.7;
+      font-size: min(10.5vw, 6.8rem);
+      font-family: "Serif";
+      padding-bottom: min(2.5vw, 2rem);
+      filter: drop-shadow(0 0 min(1vw, 0.5rem) #000);
+      transform: scalex(1.3);
+      left: min(15vw, 7.3rem);
+      max-width: 48.4rem;
+      overflow: hidden;
+      white-space: nowrap;
+      -webkit-text-stroke: min(.4vw, 0.2rem);
+      will-change: tranform, animation, filter;
+    }
 
-@keyframes rainbow-shift {to { background-position: 100% center; }}
+    @keyframes rainbow-shift {to { background-position: 100% center; }}
 
-.inincon {
-  display: flex;
-}
-.incon img {
-  pointer-events: auto;
-  filter: none;
-  width: 50%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  filter: drop-shadow(min(2vw, 1.5rem) min(4vw, 3rem) min(6vw, 3rem) #000);
-}
-.incon img:active {
-  transform: scale(0.95);
-}
+    .inincon {
+      display: flex;
+    }
+    .incon img {
+      pointer-events: auto;
+      filter: none;
+      width: 50%;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      filter: drop-shadow(min(2vw, 1.5rem) min(4vw, 3rem) min(6vw, 3rem) #000);
+    }
+    .incon img:active {
+      transform: scale(0.95);
+    }
 
-spn {
-  overflow: hidden;
-  max-width: 65%;
-  text-overflow: ellipsis;
-  display: inline-block;
-}
+    spn {
+      overflow: hidden;
+      max-width: 75%;
+      text-overflow: ellipsis;
+      display: inline-block;
+    }
 
-.mine {
-  width: 50%;
-  align-content: center;
-}
-.mine ol, .incon p {
-  padding-left: min(5.2vw, 3rem);
-  font-size: min(3.5vw, 2rem);
-  text-shadow: 0 0 min(0.5vw, 0.5rem) #000;
-  font-family: "nyashasans";
-  color: #fff;
-  letter-spacing: 0.05em;
-  line-height: 1;
-  white-space: nowrap;
-  filter: contrast(1.3) brightness(1.3);
-}
-.ilsas::marker {
-  content: "0. "
-}
+    .mine {
+      width: 50%;
+      align-content: center;
+    }
+    .mine ol, .incon p {
+      padding-left: min(5.2vw, 3rem);
+      font-size: min(3vw, 2rem);
+      text-shadow: 0 0 min(0.5vw, 0.5rem) #000, 0 0 min(0.5vw, 0.5rem) #000;
+      font-family: "nyashasans";
+      color: #fff;
+      letter-spacing: 0.05em;
+      line-height: 1;
+      white-space: nowrap;
+      filter: contrast(1.3) brightness(1.3);
+    }
+    .ilsas::marker {
+      content: "0. "
+    }
 
-.cursor {
-  width: min(8vw, 5rem);
-  background: url(./media/kirka.png);
-  position: fixed;
-  pointer-events: none;
-  will-change: transform;
-  transition: none; 
-  aspect-ratio: 1/1;
-  background-size: 100%;
-  z-index: 100;
-  filter: blur(min(0.15vw, 1.2px)) sepia(0.4) contrast(1.3);
-  opacity: 0;
-}
-.cursor.a {
-  display: none;
-}
+    .cursor {
+      width: min(8vw, 5rem);
+      background: url(./media/kirka.png);
+      position: fixed;
+      pointer-events: none;
+      will-change: transform;
+      transition: none;
+      aspect-ratio: 1/1;
+      background-size: 100%;
+      z-index: 100;
+      filter: blur(min(0.15vw, 1.2px)) sepia(0.4) contrast(1.3);
+      opacity: 0;
+    }
+    .cursor.a {
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+    span {
+      color: transparent;
+      background: #c7c7c7;
+    }
+    nobody {
+      display: ruby;
+      font-size: min(4.2vw, 2rem);
+      font-family: DeterminationMonoWeb;
+      line-height: 0;
+      background: #000;
+      box-shadow: 0 0 min(2vw, 0.5rem) #000;
+    }
+    none {
+      display: none;
+    }
 
 
 
