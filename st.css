@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'africa';
+  src: url('font/ST-Africa.woff');}
+@font-face {
+  font-family: 'Copperplate';
+  src: url('font/ofont.ru_Copperplate.woff');}
+@font-face {
+  font-family: 'buyan';
+  src: url('font/BuyanBold.woff');}
+@font-face {
+  font-family: 'nyashasans';
+  src: url('font/nyashasans.ttf');}
+@font-face {
+  font-family: 'courier';
+  src: url('font/Courier Thin.otf');}
+@font-face {
+  font-family: 'DeterminationMonoWeb';
+  src: url('font/DeterminationMonoWeb.woff');}
+@font-face {
+  font-family: 'Serif';
+  src: url('font/PT_Serif-Web-Regular.ttf');}
+@font-face {
+  font-family: 'Widock';
+  src: url('font/Widock TRIAL Bold.otf');}
+
+
+
+body{
+  background: #000;
+  font-family:'Copperplate';
+  color: #fff
+}
+body::before{
+  content:"";
+  inset:0;
+  opacity:0.07;
+  background:url("./media/1.svg") repeat;
+  background-size:auto min(75vw, 40rem);
+  pointer-events:none;
+  position: fixed;
+  filter: contrast(1.2) saturate(2);
+}
+
+
+.top {
+  padding: min(17vw, 8.5rem) 5vw;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+
+
+.main {
+  width: min(90vw, 60rem);
+  margin: 0 auto;
+  margin-top: min(5vw, 2.5rem);
+  padding-bottom: 1px;
+  line-height: 1.1;
+}
+
+
+.tt {
+  font-size: min(18vw, 9rem);
+  transform: scaleY(2);
+  font-family: "africa";
+  text-shadow: 0 0 min(2vw, 1rem) #000, 0 0 min(17vw, 8.5rem) #ffe9e3;
+  line-height: 0.8;
+  margin: 0 0 min(12vw, 6rem);
+  font-weight: 1;
+  text-align: end;
+}
+.subtitle {
+  font-size: min(4.5vw, 2.25rem);
+  letter-spacing: -0.1em;
+  line-height: 0.8;
+  color: #bababa;
+  margin-bottom: 0;
+  width: auto;
+  text-align: end;
+  text-shadow: 0 0 min(1vw, 0.5rem) #000, 0 0 min(1vw, 0.5rem) #000, 0 0 min(1vw, 0.5rem) #000, 0 0 min(1vw, 0.5rem) #000, 0 0 min(4vw, 2rem) #272727;
+}
+h2 {
+  font-size: min(11vw, 5.5rem);
+  position: relative;
+  font-family: "buyan";
+  line-height: 0.8;
+}
+
+p {
+  font-size: min(4vw, 2rem);
+  margin-bottom: min(3vw, 1.5rem);
+  color: #a4a2a1;
+  width: 100%;
+}
+
+
+img {
+  width: 100%;
+  pointer-events: none;
+  filter: contrast(1.2) brightness(0.8) saturate(0.8) sepia(0.2);
+  height: 100%;
+  z-index: 1;
+}
+.lor {
+  display: grid;
+  width: 100%;
+  padding: 0 0 min(3vw, 1.5rem) 2vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (min-width: 900px) {
+  .lor {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  h2 {
+    font-size: min(14vw, 7rem);
+  }
+}
+
+
+.container {
+  position: relative;
+  margin-bottom: min(14vw, 7rem);
+}
+
+
+
+.container.rodina {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.rodina h2, .rodina p {
+  text-align: end;
+  left: 0;
+}
+.rodina-text {
+  width: min(100vw, 50rem);
+  justify-items: end;
+  display: grid;
+}
+
+
+
+.zap {
+  width: min(60vw, 30rem)
+}
+.movie {
+  display: flex;
+}
+.movie h2 {
+  display: initial;
+  left: min(1vw, 0.5rem);
+  writing-mode: vertical-rl;
+  font-size: min(15vw, 7.5rem);
+  line-height: 0.8;
+  width: fit-content;
+}
+.movie p {
+  letter-spacing: 0.1em;
+  font-size: min(4.3vw, 2.15rem);
+}
+.warning {
+  text-align: center;
+  width: min(60vw, 30rem);
+  opacity: 0.7;
+  font-size: min(2.4vw, 1.2em);
+  letter-spacing: -0.1em;
+  line-height: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+span {
+  color: transparent;
+  background: #c7c7c7;
+}
+nobody {
+  display: ruby;
+  font-size: min(4.2vw, 2.1rem);
+  font-family: DeterminationMonoWeb;
+  line-height: 0;
+  background: #000;
+  box-shadow: 0 0 min(2vw, 1rem) #000;
+  color: #fff
+}
+none {
+  display: none;
+}
