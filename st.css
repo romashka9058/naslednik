@@ -43,7 +43,7 @@ body::before{
 
 
 .top {
-  padding: min(17vw, 8.5rem) 5vw;
+  padding: min(17vw, calc(8.5rem * var(--макс))) 5vw;
   max-width: 100rem;
   margin: 0 auto;
 }
@@ -51,44 +51,44 @@ body::before{
 
 
 .main {
-  width: min(90vw, 60rem);
+  width: min(90vw, calc(60rem * var(--макс)));
   margin: 0 auto;
-  margin-top: min(5vw, 2.5rem);
+  margin-top: min(5vw, calc(2.5rem * var(--макс)));
   padding-bottom: 1px;
   line-height: 1.1;
 }
 
 
 .tt {
-  font-size: min(18vw, 9rem);
+  font-size: min(18vw, calc(9rem * var(--макс)));
   transform: scaleY(2);
   font-family: "africa";
-  text-shadow: 0 0 min(2vw, 1rem) #000, 0 0 min(17vw, 8.5rem) #ffe9e3;
+  text-shadow: 0 0 min(2vw, calc(1rem * var(--макс))) #000, 0 0 min(17vw, calc(8.5rem * var(--макс))) #ffe9e3;
   line-height: 0.8;
-  margin: 0 0 min(12vw, 6rem);
+  margin: 0 0 min(12vw, calc(6rem * var(--макс)));
   font-weight: 1;
   text-align: end;
 }
 .subtitle {
-  font-size: min(4.5vw, 2.25rem);
+  font-size: min(4.5vw, calc(2.25rem * var(--макс)));
   letter-spacing: -0.1em;
   line-height: 0.8;
   color: #bababa;
   margin-bottom: 0;
   width: auto;
   text-align: end;
-  text-shadow: 0 0 min(1vw, 0.5rem) #000, 0 0 min(1vw, 0.5rem) #000, 0 0 min(1vw, 0.5rem) #000, 0 0 min(1vw, 0.5rem) #000, 0 0 min(4vw, 2rem) #272727;
+  text-shadow: 0 0 min(1vw, calc(0.5rem * var(--макс))) #000, 0 0 min(1vw, calc(0.5rem * var(--макс))) #000, 0 0 min(1vw, calc(0.5rem * var(--макс))) #000, 0 0 min(1vw, calc(0.5rem * var(--макс))) #000, 0 0 min(4vw, calc(2rem * var(--макс))) #272727;
 }
 h2 {
-  font-size: min(11vw, 5.5rem);
+  font-size: min(11vw, calc(5.5rem * var(--макс)));
   position: relative;
   font-family: "buyan";
   line-height: 0.8;
 }
 
 p {
-  font-size: min(4vw, 2rem);
-  margin-bottom: min(3vw, 1.5rem);
+  font-size: min(4vw, calc(2rem * var(--макс)));
+  margin-bottom: min(3vw, calc(1.5rem * var(--макс)));
   color: #a4a2a1;
   width: 100%;
 }
@@ -104,65 +104,44 @@ img {
 .lor {
   display: grid;
   width: 100%;
-  padding: 0 0 min(3vw, 1.5rem) 2vw;
-  grid-template-columns: repeat(4, 1fr);
-}
-@media (min-width: 900px) {
-  .lor {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  h2 {
-    font-size: min(14vw, 7rem);
-  }
+  padding: 0 0 min(3vw, calc(1.5rem * var(--макс))) min(4vw, calc(2rem * var(--макс)));
+  grid-template-columns: repeat(2, 1fr);
 }
 
 
 .container {
   position: relative;
-  margin-bottom: min(14vw, 7rem);
+  margin-bottom: min(14vw, calc(7rem * var(--макс)));
 }
 
 
 
-.container.rodina {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.rodina h2, .rodina p {
-  text-align: end;
-  left: 0;
-}
 .rodina-text {
-  width: min(100vw, 50rem);
-  justify-items: end;
-  display: grid;
+  padding-left: min(20vw, calc(10rem * var(--макс)));
+  text-align: end;
 }
 
 
 
 .zap {
-  width: min(60vw, 30rem)
+  width: min(60vw, calc(30rem * var(--макс)))
 }
 .movie {
   display: flex;
 }
 .movie h2 {
   display: initial;
-  left: min(1vw, 0.5rem);
+  left: min(1vw, calc(0.5rem * var(--макс)));
   writing-mode: vertical-rl;
-  font-size: min(15vw, 7.5rem);
-  line-height: 0.8;
-  width: fit-content;
 }
 .movie p {
   letter-spacing: 0.1em;
-  font-size: min(4.3vw, 2.15rem);
 }
 .warning {
   text-align: center;
-  width: min(60vw, 30rem);
+  width: min(60vw, calc(30rem * var(--макс)));
   opacity: 0.7;
-  font-size: min(2.4vw, 1.2em);
+  font-size: min(2.4vw, calc(1.2em * var(--макс)));
   letter-spacing: -0.1em;
   line-height: 0.9;
 }
@@ -185,11 +164,11 @@ span {
 }
 nobody {
   display: ruby;
-  font-size: min(4.2vw, 2.1rem);
+  font-size: min(4.2vw, calc(2.1rem * var(--макс)));
   font-family: DeterminationMonoWeb;
   line-height: 0;
   background: #000;
-  box-shadow: 0 0 min(2vw, 1rem) #000;
+  box-shadow: 0 0 min(2vw, calc(1rem * var(--макс))) #000;
   color: #fff
 }
 none {
