@@ -87,7 +87,7 @@ h2 {
 }
 
 p {
-  font-size: min(4vw, calc(2rem * var(--макс)));
+  font-size: min(3.4vw, calc(1.7rem * var(--макс)));
   margin-bottom: min(3vw, calc(1.5rem * var(--макс)));
   color: #a4a2a1;
   width: 100%;
