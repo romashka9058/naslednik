@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'africa';
+  src: url('../font/ST-Africa.woff');}
+@font-face {
+  font-family: 'Copperplate';
+  src: url('../font/ofont.ru_Copperplate.woff');}
+@font-face {
+  font-family: 'pixel8bit';
+  src: url('../font/progresspixel8bit.ttf');}
+@font-face {
+  font-family: 'buyan';
+  src: url('../font/BuyanBold.woff');}
+@font-face {
+  font-family: 'nyashasans';
+  src: url('../font/nyashasans.ttf');}
+@font-face {
+  font-family: 'courier';
+  src: url('../font/Courier Thin.otf');}
+@font-face {
+  font-family: 'DeterminationMonoWeb';
+  src: url('../font/DeterminationMonoWeb.woff');}
+@font-face {
+  font-family: 'Serif';
+  src: url('../font/PT_Serif-Web-Regular.ttf');}
+@font-face {
+  font-family: 'Widock';
+  src: url('../font/Widock TRIAL Bold.otf');}
+
+
+
+body{
+  background: #000;
+  font-family:'Copperplate';
+  color: #fff
+}
+body::before{
+  content:"";
+  inset:0;
+  opacity:0.05;
+  background:url("../media/1.svg") repeat;
+  background-size:auto min(80.5vw, calc(35rem * var(--макс)));
+  position: fixed;
+  filter: contrast(1.2) saturate(2);
+  z-index: -1;
+}
+
+
+
+.top {
+  padding: min(19.55vw, calc(8.5rem * var(--макс))) min(3vw, calc(1.5rem * var(--макс)));
+  max-width: calc(60rem * var(--макс));
+  margin: 0 auto;
+}
+.top h1 {
+  font-size: min(16.1vw, calc(7rem * var(--макс)));
+  transform: scaleY(1.75);
+  font-family: "africa";
+  line-height: 0;
+  margin: min(9.2vw, calc(4rem * var(--макс))) 0 min(13.8vw, calc(6rem * var(--макс)));
+  font-weight: 1;
+  text-align: end;
+  text-shadow: 0 0 min(2.3vw, calc(1rem * var(--макс))) #000, 0 0 min(16.1vw, calc(7rem * var(--макс))) #ffe3dc;
+}
+.top p {
+  font-size: min(3.75vw, calc(1.87rem * var(--макс)));
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+  color: #fff;
+  text-align: end;
+  opacity: 0.8;
+  margin-right: min(1.15vw, calc(0.5rem * var(--макс)));
+}
+
+
+
+
+
+.main {
+  width: min(100vw, calc(50rem * var(--макс)));
+  padding: 0 min(5vw, calc(2.5rem * var(--макс)));
+  margin: 0 auto;
+}
+.main h2 {
+  font-size: min(10.35vw, calc(4.5rem * var(--макс)));
+  font-family: "buyan";
+  line-height: 0.8;
+}
+.main p {
+  font-size: min(3.22vw, calc(1.4rem * var(--макс)));
+  margin-bottom: min(3.45vw, calc(1.5rem * var(--макс)));
+  color: #a4a2a1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span {
+  opacity: .25
+}

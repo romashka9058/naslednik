@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.romashka9058.heir" version="1.2.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+    <name>Heir</name>
+    <description>lalalalllalla</description>
+    <author email="romashka9058@gmail.com" href="https://main9058.onrender.com"></author>
+
+    <content src="index.html" />
+    <access origin="*" />
+    <hook type="after_prepare" src="hooks/after_prepare/fix-theme.js" />
+
+
+    <preference name="AndroidInvertDarkMode" value="false" />
+
+    <preference name="ShowSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="AutoHideSplashScreen" value="true" />
+
+    <preference name="Fullscreen" value="false" />
+    <preference name="AndroidEdgeToEdge" value="true" />
+
+    <icon src="www/media/icon.png" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/media/icon.png" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#000000" /> 
+    
+</widget>
