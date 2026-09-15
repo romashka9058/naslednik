@@ -4,3 +4,4 @@ app/platforms/
 app/package.json
 app/package-lock.json
 app/www/js/o.js
+app/plugins/android.json
