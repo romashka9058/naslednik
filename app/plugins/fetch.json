@@ -1,12 +1,4 @@
 {
-  "phonegap-plugin-mobile-accessibility": {
-    "source": {
-      "type": "registry",
-      "id": "phonegap-plugin-mobile-accessibility"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-device": {
     "source": {
       "type": "registry",
@@ -21,6 +13,14 @@
       "id": "https://github.com/apache/cordova-plugin-network-information.git"
     },
     "is_top_level": false,
+    "variables": {}
+  },
+  "phonegap-plugin-mobile-accessibility": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-mobile-accessibility"
+    },
+    "is_top_level": true,
     "variables": {}
   }
 }

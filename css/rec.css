@@ -1,7 +1,5 @@
 .rec {
     position: fixed;
-    width: 100vw;
-    height: 100dvh;
     inset: 0;
     backdrop-filter: blur(7.5px) contrast(.75) brightness(.5);
     z-index: 10;

@@ -2,6 +2,6 @@
 app/node_modules/
 app/platforms/
 app/package.json
+app/plugins
 app/package-lock.json
 app/www/js/o.js
-app/plugins/android.json
